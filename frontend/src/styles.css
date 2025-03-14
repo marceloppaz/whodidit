@@ -1,0 +1,140 @@
+/* Estilos gerais */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos das fotos dos criminosos */
+.criminoso-container {
+  margin: 10px;
+  text-align: center;
+}
+
+.criminoso-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Estilos da zona de soltar */
+.drop-zone {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  min-height: 50px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #fff;
+}
+
+.drop-zone-over {
+  border: 2px dashed green;
+  background-color: #f0f0f0;
+}
+
+.drop-zone-question {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos dos crimes arrastáveis */
+.draggable-crime {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: move;
+  background-color: #f8f9fa;
+}
+
+.draggable-crime-dragging {
+  opacity: 0.5;
+}
+
+/* Estilos do botão de verificar */
+.verify-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.verify-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos da página de resultado */
+.result-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.result-title {
+  margin-bottom: 20px;
+}
+
+.result-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.result-feedback {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.result-feedback.correct {
+  color: green;
+}
+
+.result-feedback.incorrect {
+  color: red;
+}
+
+.reiniciar-button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.reiniciar-button:hover {
+  background-color: #0056b3;
+}
