@@ -1,0 +1,14 @@
+{
+  "name": "whodidit",
+  "version": "1.0.0",
+  "description": "Este é um jogo interativo onde os usuários devem associar crimes aos criminosos corretos com base em fotos e descrições. O projeto foi desenvolvido com React no frontend e Node.js com MongoDB no backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
