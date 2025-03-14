@@ -9,7 +9,7 @@ const GamePage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('http://localhost:5000/api/criminosos')
+        fetch('https://whodidit.onrender.com/api/criminosos')
             .then(response => response.json())
             .then(data => {
                 console.log('Dados recebidos:', data);
